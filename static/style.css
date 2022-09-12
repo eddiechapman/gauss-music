@@ -43,6 +43,7 @@ body {
 .wrapper {
   height: 100%;
   display: flex;
+  gap: 10px;
   flex-flow: column;
   border-radius: 15px;
 }
@@ -50,6 +51,7 @@ body {
 .header {
   display: flex;
   flex: 1;
+  gap: 10px;
   flex-flow: column;
   justify-content: space-around;
 }
@@ -71,6 +73,7 @@ body {
   
 .menu {
   flex: 2;
+  gap: 10px;
   display: flex;
   flex-flow: column;
   align-items: center;
