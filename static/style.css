@@ -62,13 +62,15 @@ body {
   align-items: center;
   justify-content: center;
   align-self: center;
-  width: 90%;
+  width: 100%;
   border-radius: 15px;
+  padding: 1em;
 }
 
 .logo__img {
-  height: 100px;
-  width: auto;
+  object-fit: contain;
+  height: 90px;
+  width: 100%;
 }
   
 .menu {
@@ -97,7 +99,8 @@ body {
 
 .link__img {
   height: 45px;
-  width: auto;
+  width: 100%;
+  object-fit: contain;
 }
 
 .main {
