@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gauss Music</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"/>
   </head>
 
   <body class="background__image">
     <div class="wrapper gradient-sm">
       <header class="header">
-        <div class="logo gradient-xs  outline-xs">
-          <a href="{{ url_for('index') }}">
-            <img class="logo__img" src="{{ url_for('static', filename='gauss-logo.png') }}">
-          </a>
-        </div>
+        <a class="logo gradient-xs  outline-xs" href="{{ url_for('index') }}">
+          <img class="logo__img" src="{{ url_for('static', filename='gauss-logo.png') }}">
+        </a>
         <nav class="menu">
           <a class="menu__link gradient-xs outline-xs" href="https://gaussmke.bandcamp.com/music" target="_blank">
             <img class="link__img" src="{{ url_for('static', filename='listen.png') }}">
@@ -31,10 +29,10 @@
         </nav>
       </header>
       
-      <article class="main gradient gradient-xs outline-xs">
+      <main class="main gradient gradient-xs outline-xs">
         {% block content %}
         {% endblock content %}
-      </article>
+      </main>
   
     </div>
   </body>
