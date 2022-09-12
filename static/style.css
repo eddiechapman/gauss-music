@@ -16,6 +16,14 @@ html, body {
   box-sizing: border-box;
 }
 
+a:link {
+  color: #ebd834;
+}
+
+a:visited {
+  color: #34ebcd;
+}
+
 body {
   padding: 1em;
   height: 100vh;
