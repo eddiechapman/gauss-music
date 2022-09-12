@@ -17,7 +17,7 @@
           <img class="logo__img" src="{{ url_for('static', filename='gauss-logo.png') }}">
         </a>
         <nav class="menu">
-          <a class="menu__link gradient-xs outline-xs" href="https://gaussmke.bandcamp.com/music" target="_blank">
+          <a class="menu__link gradient-xs outline-xs" href="{{ url_for('listen') }}">
             <img class="link__img" src="{{ url_for('static', filename='listen.png') }}">
           </a>
           <a class="menu__link gradient-xs  outline-xs" href="{{ url_for('about') }}">

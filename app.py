@@ -24,6 +24,11 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/listen.html")
+def listen():
+    return render_template("listen.html")
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
