@@ -37,7 +37,7 @@ body {
 }
 
 .outline-xs {
-  outline: 1px solid black;
+  border: 1px solid black;
 }
 
 .wrapper {
@@ -161,7 +161,7 @@ body {
   }
 
   .outline-xs {
-    outline-style: none;
+    border-style: none;
   }
 
 }
